@@ -48,7 +48,6 @@ function tecladoMouseUp(event){
     }
     else{
       target.style.height = '62.91px';
-      //target.style.width = '25%';
    }
   }
 }
@@ -259,7 +258,7 @@ class Calculadora{
 
   }
 
-  //implementacion de los setter y getters
+  //Setter y getters para calculos
   setOperandoIzq(valor){
     this.operandoIzq = valor;
   }
